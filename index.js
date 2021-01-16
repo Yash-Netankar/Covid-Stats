@@ -3,7 +3,7 @@ const hbs = require("hbs");
 const covid = require("novelcovid");
 const app = express();
 
-const port = process.env.port || 4000;
+const port = process.env.PORT || 4000;
 
 // middleware
 app.use(express.static(__dirname + "/public"));
